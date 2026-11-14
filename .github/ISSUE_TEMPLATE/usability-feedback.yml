@@ -1,0 +1,56 @@
+name: Usability feedback
+description: Tried the Tiramisu demo for the first time? Tell us what was clear and what wasn't.
+title: "Usability feedback: "
+labels: ["usability"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for trying the demo. Please use **made-up details only**, and never real personal information.
+        If this topic is hard for you right now, it's completely fine to skip any question.
+  - type: textarea
+    id: who
+    attributes:
+      label: After a first look, who did you think this is for?
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem did you think it solves?
+    validations:
+      required: true
+  - type: input
+    id: first-click
+    attributes:
+      label: What did you click first, and was that the right thing?
+  - type: textarea
+    id: real-vs-demo
+    attributes:
+      label: Which parts did you think were real, and which were a demo or simulated?
+  - type: dropdown
+    id: clarity
+    attributes:
+      label: How clear was it what this is for?
+      options: ["5: very clear", "4", "3", "2", "1: not clear at all"]
+    validations:
+      required: true
+  - type: dropdown
+    id: next-step
+    attributes:
+      label: How easy was it to know what to do next?
+      options: ["5: very easy", "4", "3", "2", "1: very hard"]
+    validations:
+      required: true
+  - type: textarea
+    id: confusing
+    attributes:
+      label: What was the most confusing moment?
+  - type: textarea
+    id: tone
+    attributes:
+      label: Did anything feel insensitive or out of place, given the topic?
+  - type: textarea
+    id: explain
+    attributes:
+      label: In one or two sentences, how would you describe Tiramisu to a friend?

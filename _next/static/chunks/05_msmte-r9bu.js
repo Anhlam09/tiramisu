@@ -1,0 +1,44 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,34499,e=>{"use strict";var t=e.i(43476);e.i(16787);var a=e.i(13477),o=e.i(37757),n=e.i(71645),i=e.i(59544),s=e.i(39964);function r({id:e,title:a,hint:o,text:l}){let[d,h]=(0,n.useState)(""),c=(0,n.useRef)(null);async function u(){try{await navigator.clipboard.writeText(l),h("Copied")}catch{c.current?.focus(),c.current?.select(),h("Selected. Press Ctrl+C or Cmd+C to copy.")}}return(0,t.jsx)(s.N,{children:(0,t.jsxs)(s.Q,{className:"space-y-3 pt-5",children:[(0,t.jsxs)("div",{children:[(0,t.jsx)("h3",{className:"font-serif text-lg font-semibold",children:a}),(0,t.jsx)("p",{className:"text-sm text-ink-muted",children:o})]}),(0,t.jsx)("label",{htmlFor:`msg-${e}`,className:"sr-only",children:a}),(0,t.jsx)("textarea",{id:`msg-${e}`,ref:c,readOnly:!0,rows:9,value:l,className:"w-full rounded-md border border-border-strong bg-sunken p-3 text-base"}),(0,t.jsxs)("div",{className:"flex flex-wrap items-center gap-3",children:[(0,t.jsx)(i.f,{type:"button",variant:"secondary",onClick:u,children:"Copy message"}),(0,t.jsx)("p",{role:"status","aria-live":"polite",className:"text-sm text-ink-muted",children:d})]})]})})}var l=e.i(22016);function d({group:e,isDone:a,onToggle:o}){let n=`group-${e.id}`;return(0,t.jsxs)("section",{"aria-labelledby":n,className:"space-y-3",children:[(0,t.jsx)("h2",{id:n,className:"text-2xl",children:e.title}),(0,t.jsx)(s.N,{children:(0,t.jsx)(s.Q,{className:"pt-2",children:(0,t.jsx)("ul",{className:"divide-y divide-border",children:e.items.map(e=>{let n=`fd-${e.id}`;return(0,t.jsxs)("li",{className:"flex gap-3 py-4",children:[(0,t.jsx)("input",{id:n,type:"checkbox",className:"mt-1.5 size-5 shrink-0 accent-[var(--color-honey-strong)]",checked:a(e.taskId,e.id),onChange:t=>o(e.taskId,e.id,t.target.checked)}),(0,t.jsxs)("div",{className:"min-w-0",children:[(0,t.jsx)("label",{htmlFor:n,className:"cursor-pointer font-medium",children:e.title}),(0,t.jsx)("p",{className:"text-ink-muted",children:e.why}),e.href&&(0,t.jsx)(l.default,{href:e.href,className:"mt-1 inline-block rounded-sm text-sm text-honey-strong underline underline-offset-4 hover:text-cocoa",children:"See this step in the roadmap"})]})]},e.id)})})})})]})}var h=e.i(75379);let c=(e,t,a,o)=>({id:e,title:t,why:a,taskId:o,href:o?`/roadmap/${o}`:void 0}),u=[{id:"today",title:"Today",items:[c("pronouncement","Make sure the death has been formally recorded","Nearly every later step starts from this record, and it is often handled for you.","1.1"),c("people","Call the people who should hear from you","Leaning on one or two close people makes the next days lighter. They can help share the news."),c("dependents","Make sure dependents and pets are looked after","People and animals who relied on your loved one need steady care first.","1.2")]},{id:"next-days",title:"The next few days",items:[c("funeral-home","Contact a funeral home","They usually order death certificates and can tell you what they file for you.","1.4"),c("secure-home","Secure the home and valuables","Locking up and collecting keys prevents harder problems later.","1.3"),c("find-will","Look for the will and estate papers","The will names who is in charge, and the original often matters to the court.","1.5"),c("certificates","Order certified death certificates","Banks, insurers and agencies each want an official copy. Many families order 10 to 15.","2.1"),c("social-security","Let Social Security know","Reporting early avoids a harder conversation about payments later.","2.2")]},{id:"this-week",title:"This week",items:[c("employer","Contact your loved one's employer","There may be final pay, benefits or a pension owed to the estate or family.","2.5"),c("insurers","Contact insurers","Life insurance usually goes straight to named beneficiaries and can be a real help.","2.6"),c("credit","Notify the three credit bureaus","This protects their name from identity theft and shows accounts you may not know about.","2.3")]}],m=[{id:"family-friends",title:"Telling close family and friends",hint:"A short note you can send by text or email.",body:`Dear [name],
+
+I'm sorry to share that {name} passed away on {dateOfDeath}. I wanted you to hear it from me.
+
+The service will be {serviceDate}. I'll share details as soon as I have them. There's no need to reply right now.
+
+With love,
+{executor}`},{id:"decedent-employer",title:"Telling their employer",hint:"Ask about final pay, benefits and who to speak with.",body:`Hello [contact name],
+
+I'm writing to let you know that {name} passed away on {dateOfDeath}. I'm {executor}, and I'm helping to settle their affairs.
+
+When you have a moment, could you tell me who to speak with about final pay, benefits, life insurance or a pension? I can send a copy of the death certificate once I have it.
+
+Thank you for your patience and understanding.
+
+{executor}
+[your phone or email]`},{id:"own-employer",title:"Telling your own employer you need time off",hint:"Short and clear. You do not need to explain more than you wish.",body:`Hi [manager's name],
+
+I'm sorry to tell you that {name} passed away on {dateOfDeath}. I'd like to take [number of days] off to be with family and take care of arrangements, starting [first day away].
+
+I'll be in touch about [date you'll check in]. Please let me know if you need anything from me before then.
+
+Thank you,
+{executor}`},{id:"landlord-mortgage",title:"Telling the landlord or mortgage company",hint:"Lets them know who to talk to, and asks about options.",body:`Hello,
+
+I'm writing about the [rental or mortgage] for [property address], account [account reference]. {name} passed away on {dateOfDeath}, and I'm {executor}, helping to settle their affairs.
+
+Could you tell me what you need from me, and what options are available while the estate is being settled? I can provide a death certificate. Please let me know who I should speak with.
+
+Thank you for your help.
+
+{executor}
+[your phone or email]`},{id:"social-post",title:"A short announcement for social media",hint:"Share only what you are comfortable with.",body:`With a heavy heart, we share that {name} passed away on {dateOfDeath}. They are deeply loved and will be missed.
+
+A service will be held {serviceDate}. Thank you for your kindness and for giving our family some quiet time.`},{id:"ask-bank",title:"Asking a bank what they need",hint:"Each bank has its own process. This opens the conversation.",body:`Hello,
+
+{name} passed away on {dateOfDeath}. I'm {executor}, and I'm helping to settle their affairs. I'd like to understand what you need from me for any accounts they held with you.
+
+Could you tell me what documents you require, such as a death certificate or court papers, and how to hold the accounts safely in the meantime? I'd appreciate a name or number to contact.
+
+Thank you for your help.
+
+{executor}
+[your phone or email]`}];e.i(68972);var y=e.i(14125),f=e.i(92964),p=e.i(74430);e.s(["default",0,function(){let e=(0,p.L)();if(null===(0,p.E)()||!e)return(0,t.jsx)("p",{className:"text-ink-muted",children:"Gathering your first days plan..."});let n=e.id,i=e=>`first-days:${e}`,s=(e,t)=>e?(0,f.d)(n,e)?.status==="done":null!==(0,y.u)(n,i(t)),l=(e,t,a)=>{let o=i(t);if(e)if(a){let t=(0,f.d)(n,e)?.status??"todo";(0,y.j)(n,o,!0,t),(0,f.P)(n,e,"done")}else{let t=(0,y.u)(n,o)?.prevStatus??"todo";(0,y.j)(n,o,!1),(0,f.P)(n,e,t)}else(0,y.j)(n,o,a)};return(0,t.jsxs)("div",{className:"space-y-10",children:[(0,t.jsx)(o.f,{eyebrow:"First days",title:"The first days, gently",description:"You don't have to do all of this at once. Do what you can, and lean on others where you can."}),u.map(e=>(0,t.jsx)(d,{group:e,isDone:s,onToggle:l},e.id)),(0,t.jsxs)("section",{"aria-labelledby":"messages-heading",className:"space-y-3",children:[(0,t.jsx)("h2",{id:"messages-heading",className:"text-2xl",children:"Messages you can send"}),(0,t.jsx)("p",{className:"text-ink-muted",children:"Ready-to-send notes. Fill in anything in [brackets], and change the words so they sound like you."}),(0,t.jsx)("div",{className:"grid gap-4 md:grid-cols-2",children:m.map(a=>(0,t.jsx)(r,{id:a.id,title:a.title,hint:a.hint,text:function(e,t){let a=m.find(t=>t.id===e);if(!a)return"";let o={name:t.decedentName.trim()||"[name of your loved one]",dateOfDeath:(0,h.C)(t.dateOfDeath)||"[date]",executor:t.executorName?.trim()||"[your name]",serviceDate:"[date of the service]"};return a.body.replace(/\{(\w+)\}/g,(e,t)=>o[t]??`[${t}]`)}(a.id,e)},a.id))})]}),(0,t.jsx)(a.f,{children:"Tiramisu is not a law firm and does not give legal advice. Your court or an attorney can confirm what applies to you."})]})}],34499)}]);

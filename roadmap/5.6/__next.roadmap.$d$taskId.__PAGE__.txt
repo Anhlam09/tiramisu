@@ -1,0 +1,41 @@
+1:"$Sreact.fragment"
+2:"/tiramisu/_next/static/chunks/285lxwbe94axh.js"
+3:"/tiramisu/_next/static/chunks/0n4hh638e3mud.js"
+4:I[53706,["$2","$3"],"SandboxBanner"]
+5:I[22016,["$2","$3"],""]
+6:I[36934,["$2","$3"],"NavLinks"]
+7:I[39756,["$2","$3"],"default"]
+8:I[37457,["$2","$3"],"default"]
+:HL["/tiramisu/_next/static/chunks/355occxzcdq-0.css","style"]
+b:X
+f:X
+f:C
+13:[["children",{"s":"__PAGE__","h":160,"d":{"r":"$L14","p":"$@15","v":null,"s":"$b"}}]]
+10:[["children",{"s":{"n":"taskId","t":"d","k":"5.6","s":[]},"h":65632,"d":{"r":"$L11","p":"$@12","v":"$f","s":"$b"},"c":"$Q13"}]]
+c:[["children",{"s":"roadmap","h":131168,"d":{"r":"$Ld","p":"$@e","v":"$f","s":"$b"},"c":"$Q10"}]]
+0:{"t":{"t":{"s":"","h":131152,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/tiramisu/_next/static/chunks/355occxzcdq-0.css","precedence":"next"}],["$","script","script-0",{"src":"/tiramisu/_next/static/chunks/285lxwbe94axh.js","async":true}],["$","script","script-1",{"src":"/tiramisu/_next/static/chunks/0n4hh638e3mud.js","async":true}]],["$","html",null,{"lang":"en","className":"MOT0tq_variable XsHlgG_variable h-full","children":["$","body",null,{"className":"min-h-full","children":["$","div",null,{"className":"min-h-screen","children":[["$","$L4",null,{}],["$","div",null,{"className":"min-h-screen md:flex","children":[["$","a",null,{"href":"#main","className":"sr-only print:hidden focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-50 focus:rounded-full focus:bg-surface focus:px-4 focus:py-2","children":"Skip to content"}],["$","aside",null,{"className":"hidden print:!hidden w-64 shrink-0 flex-col border-r border-border bg-sunken/60 p-5 md:sticky md:top-0 md:flex md:h-screen","children":[["$","$L5",null,{"href":"/","className":"inline-flex items-center gap-2.5","aria-label":"Tiramisu, home","children":[["$","svg",null,{"width":32,"height":32,"viewBox":"0 0 32 32","aria-hidden":"true","focusable":"false","children":[["$","rect",null,{"x":"2","y":"2","width":"28","height":"28","rx":"8","fill":"#5a3a28"}],["$","rect",null,{"x":"6","y":"7","width":"20","height":"4","rx":"2","fill":"#fbf7ef"}],["$","rect",null,{"x":"6","y":"13","width":"20","height":"4","rx":"2","fill":"#d99a32"}],["$","rect",null,{"x":"6","y":"19","width":"20","height":"4","rx":"2","fill":"#f3e9d8"}]]}],["$","span",null,{"className":"font-serif text-2xl font-semibold tracking-tight text-ink","children":"Tiramisu"}]]}],["$","nav",null,{"aria-label":"Main","className":"-mx-1 mt-6 min-h-0 flex-1 overflow-y-auto px-1","children":["$","$L6",null,{"orientation":"vertical"}]}],["$","p",null,{"className":"text-xs leading-relaxed text-ink-muted mt-6 border-t border-border pt-4","children":"Tiramisu helps you stay organized. It isn't legal, tax, or financial advice. Rules vary by state."}]]}],["$","header",null,{"className":"border-b border-border bg-sunken/60 px-4 pt-3 md:hidden print:hidden","children":[["$","$L5",null,{"href":"/","className":"inline-flex items-center gap-2.5","aria-label":"Tiramisu, home","children":[["$","svg",null,{"width":32,"height":32,"viewBox":"0 0 32 32","aria-hidden":"true","focusable":"false","children":[["$","rect",null,{"x":"2","y":"2","width":"28","height":"28","rx":"8","fill":"#5a3a28"}],["$","rect",null,{"x":"6","y":"7","width":"20","height":"4","rx":"2","fill":"#fbf7ef"}],["$","rect",null,{"x":"6","y":"13","width":"20","height":"4","rx":"2","fill":"#d99a32"}],["$","rect",null,{"x":"6","y":"19","width":"20","height":"4","rx":"2","fill":"#f3e9d8"}]]}],["$","span",null,{"className":"font-serif text-2xl font-semibold tracking-tight text-ink","children":"Tiramisu"}]]}],["$","nav",null,{"aria-label":"Main","className":"-mx-4 mt-3 overflow-x-auto px-4 pb-3","children":["$","$L6",null,{"orientation":"horizontal"}]}]]}],["$","div",null,{"className":"flex min-w-0 flex-1 flex-col","children":[["$","main",null,{"id":"main","className":"mx-auto w-full max-w-4xl flex-1 px-4 py-8 sm:px-8 md:py-12 print:max-w-none print:p-0","children":["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}],["$","footer",null,{"className":"border-t border-border px-4 py-5 sm:px-8 md:hidden print:hidden","children":"$L9"}]]}]]}]]}]}]}]]}],"p":"$@a","v":null,"s":"$b"},"c":"$Qc"},"h":{"r":"$L16","p":"$@17","v":null,"s":"$b"}},"a":"$@18","u":"$@19","b":"gnDHWqSg8FpOzJX4-xxUg"}
+1a:"/tiramisu/_next/static/chunks/40d6a-095dmxe.js"
+1b:"/tiramisu/_next/static/chunks/1dxa7b6g8ck4y.js"
+1c:I[83386,["$2","$3","$1a","$1b"],"TaskDetail"]
+1d:I[97367,["$2","$3"],"OutletBoundary"]
+1e:"$Sreact.suspense"
+20:"ViewportBoundary"
+21:I[97367,["$2","$3"],"$20"]
+22:"MetadataBoundary"
+23:I[97367,["$2","$3"],"$22"]
+24:I[27201,["$2","$3"],"IconMark"]
+9:["$","p",null,{"className":"text-xs leading-relaxed text-ink-muted","children":"Tiramisu helps you stay organized. It isn't legal, tax, or financial advice. Rules vary by state."}]
+d:["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}]
+11:["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}]
+14:["$","$1","c",{"children":[["$","$L1c",null,{"taskId":"5.6"}],[["$","script","script-0",{"src":"/tiramisu/_next/static/chunks/40d6a-095dmxe.js","async":true}],["$","script","script-1",{"src":"/tiramisu/_next/static/chunks/1dxa7b6g8ck4y.js","async":true}]],["$","$L1d",null,{"children":["$","$1e",null,{"name":"Next.MetadataOutlet","children":"$@1f"}]}]]}]
+16:["$","$1","h",{"children":[null,["$","$L21",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L23",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1e",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Tiramisu"}],["$","meta","1",{"name":"description","content":"A calm, step-by-step companion for settling a loved one's estate, at whatever pace feels right."}],["$","link","2",{"rel":"icon","href":"/tiramisu/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}],["$","$L24","3",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+1f:null
+19:true
+b:300
+b:C
+18:0
+12:"$undefined"
+e:"$undefined"
+17:"$undefined"
+15:"$undefined"
+a:"$undefined"
